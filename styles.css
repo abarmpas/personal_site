@@ -1,0 +1,54 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+html {
+  		background: url(her.jpg) no-repeat center center fixed;
+  		background-size: cover;
+  		height: 100%;
+  		overflow: hidden;
+	}
+#maindiv{
+	animation: 2s fadein;
+}
+	ul {
+		margin-top: -.8em;
+		font-family: futura-pt;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: 400;
+		font-style: normal;
+		margin: 0;
+		padding: 0;
+		line-height: 1em;
+		text-align: center;
+		text-rendering: optimizeLegibility;
+	}
+	ul li {
+  		display: inline-block;
+  		list-style: none;
+	}
+	.pages {
+		padding-left: 0;
+		transition: color 100ms;
+		color: #fff;
+		padding-right: .6em;
+		padding-top: .8em;
+		padding-bottom: .8em;
+		display: block;
+		text-decoration: none;
+		background: transparent;
+	}
+	#p1 {
+		font-size: 30px;
+		font-family: "museo-sans";
+		font-weight: 100;
+		font-style: normal;
+		line-height: 1.2em;
+		text-transform: none;
+		letter-spacing: 2px;
+		color: #fff;
+		margin: 0;
+	}
